@@ -14,9 +14,9 @@ class SpringbootJenkinsDemoApplicationTests {
 	private static Logger logger = LoggerFactory.getLogger(SpringbootJenkinsDemoApplicationTests.class);
 
 	@Test
-	public void contextLoads() {
+	public  contextLoads() {
 		logger.info("Inside test class contextLoad method, test case executing");
-		
+		  
 		assertEquals(true, true);
 	}
 
