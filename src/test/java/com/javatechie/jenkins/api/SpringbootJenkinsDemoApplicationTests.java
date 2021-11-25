@@ -16,7 +16,7 @@ class SpringbootJenkinsDemoApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("Inside test class contextLoad method, test case executing");
-		logger.info("test case executing, second run");
+		
 		assertEquals(true, true);
 	}
 
